@@ -1,0 +1,14 @@
+[
+    {
+        "received": "/g",
+        "destination": "http://google.com"
+    },
+    {
+        "received": "/u",
+        "destination": "https://ukr.net/"
+    },
+    {
+        "received": "/h",
+        "destination": "https://habr.com/"
+    }
+]

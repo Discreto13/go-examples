@@ -1,0 +1,18 @@
+global:
+  scrape_interval: 120s
+  evaluation_interval: 120s
+
+  external_labels:
+    monitor: 'my-project'
+
+rule_files:
+# - "alert.rules"
+# - "first.rules"
+# - "second.rules"
+
+scrape_configs:
+  - job_name: prom_monitor
+    scrape_interval: 10s
+    static_configs:
+      - targets:
+        - go-service-with-metrics:2112

@@ -10,9 +10,9 @@ services:
     ports:
       - 9090:9090
     depends_on:
-      - go-service-with-metrics
+      - go-metric-producer
 
-  go-service-with-metrics:
+  go-metric-producer:
     build: .
     ports:
     - 8080:2112

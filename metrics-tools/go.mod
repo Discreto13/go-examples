@@ -1,4 +1,4 @@
-module github.com/discreto13/go-examples/prometheus-test
+module github.com/discreto13/go-examples/metrics-tools
 
 go 1.18
 
